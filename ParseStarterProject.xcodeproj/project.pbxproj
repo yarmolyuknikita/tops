@@ -25,6 +25,7 @@
 		244DA4AF1B26244E00B0DB57 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244DA4AE1B26244E00B0DB57 /* FBSDKCoreKit.framework */; };
 		244DA4B11B26245700B0DB57 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244DA4B01B26245700B0DB57 /* FBSDKLoginKit.framework */; };
 		244DA4B41B2627B200B0DB57 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244DA4B31B2627B200B0DB57 /* MainViewController.m */; };
+		245F66B41B3014AB00874C6C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245F66B31B3014AB00874C6C /* MapKit.framework */; };
 		2FCDD6B014A573F500295AAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDD6AF14A573F500295AAC /* QuartzCore.framework */; };
 		4998650515BF305000803E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998650415BF305000803E05 /* StoreKit.framework */; };
 		743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743D7B6C157DA60100084B67 /* CoreGraphics.framework */; };
@@ -67,6 +68,7 @@
 		244DA4B01B26245700B0DB57 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		244DA4B21B2627B200B0DB57 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		244DA4B31B2627B200B0DB57 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		245F66B31B3014AB00874C6C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2FCDD6AF14A573F500295AAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4998650415BF305000803E05 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6332375315E438E900AE2736 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -92,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245F66B41B3014AB00874C6C /* MapKit.framework in Frameworks */,
 				91D261791A36EB67005D713D /* libsqlite3.0.dylib in Frameworks */,
 				81A6CA611A2EA82800297C39 /* libstdc++.6.dylib in Frameworks */,
 				DD952FCB16E7F5CF00470144 /* CoreLocation.framework in Frameworks */,
@@ -139,6 +142,7 @@
 		09ABC07013A1D52D009C3FCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				245F66B31B3014AB00874C6C /* MapKit.framework */,
 				244DA4B01B26245700B0DB57 /* FBSDKLoginKit.framework */,
 				244DA4AE1B26244E00B0DB57 /* FBSDKCoreKit.framework */,
 				91D261781A36EB67005D713D /* libsqlite3.0.dylib */,
